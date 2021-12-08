@@ -1,0 +1,3 @@
+C:\path\of\my\file
+C:\path2\of\my\file
+C:\path3\of\my\file

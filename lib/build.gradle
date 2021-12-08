@@ -1,0 +1,18 @@
+plugins {
+    id 'groovy'
+    id 'application'
+    id 'java-library'
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.7'
+}
+
+application {
+    mainClass = 'asmescaping.SomeClass'
+}
